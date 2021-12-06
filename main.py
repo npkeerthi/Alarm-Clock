@@ -20,7 +20,7 @@ while True:
         if (alarm_hour == current_hour):
             # print("****")
             if (alarm_minute == current_minute):
-                print("*")
+#                 print("*")
                 if (alarm_seconds == current_seconds):
                     print("Wake Up!")
                     playsound('http://codeskulptor-demos.commondatastorage.googleapis.com/descent/gotitem.mp3')
